@@ -17,7 +17,14 @@
         android:layout_gravity="center"
         android:padding="30dp"
         android:fontFamily="sans-serif"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:id="@+id/textView1"/>
+
+    <Button
+        android:id="@+id/buttonSTART"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START" />
 
     <LinearLayout
         android:layout_width="wrap_content"
